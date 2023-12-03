@@ -26,9 +26,7 @@ let read_file filename =
 
 let file = "input.txt"
 
-let string_to_char_list s =
-    s |> String.to_seq |> List.of_seq
-
+let string_to_char_list s = let x = String.to_seq s in List.of_seq x;;
 
 (* solution *)
 let l_s list =
